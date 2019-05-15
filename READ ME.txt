@@ -1,0 +1,9 @@
+Joe Xu
+
+
+This experiment simulates a car at the bottom between two 2d mountains and the car needs to get to the top of the right mountain. The car cannot accelerate fast enough to just drive straight to the top and needs to sway back and fourth to gain enough momentum to gain enough speed.
+
+After running the experiment file, python3 experiment.py,it creates a 2d graph for the average steps needed per episode to reach the top averaged over 50 run. This is to simulate the learning curve of my algorithm. 
+
+A single 3d graph for what is the value of a specific [ position, velocity ] state, is created. This value represents how good is being at that specific state to reaching the top, while using the current state policy. 
+
